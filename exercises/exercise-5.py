@@ -12,3 +12,14 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+term = 0
+num1 = 0
+num2 = 1
+
+while term < 50:
+    print(f"term: {term} / number: {num1}")
+    num = num1 + num2
+    num1 = num2
+    num2 = num
+    term += 1
